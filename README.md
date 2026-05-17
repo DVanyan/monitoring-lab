@@ -217,7 +217,7 @@ This triggers:
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
 - Linux Administration
 - Docker & Docker Compose
@@ -228,18 +228,20 @@ This triggers:
 - Infrastructure Troubleshooting
 - Container Monitoring
 - Uptime Monitoring
+- Telegram Alerting Integration
+- Git & GitHub
 
 ---
 
-# Future Improvements
+## Future Improvements
 
-- Loki log aggregation
-- Promtail integration
-- Kubernetes monitoring
-- Helm deployment
-- SSL expiration alerts
-- Custom Grafana dashboards
-- CI/CD integration
+- Loki Log Aggregation
+- Promtail Integration
+- Kubernetes Monitoring
+- Helm Deployment
+- SSL Expiration Alerts
+- Custom Grafana Dashboards
+- CI/CD Integration
 
 ---
 
