@@ -1,5 +1,6 @@
 # Monitoring Lab
 https://images.credly.com/size/220x220/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png
+
 Full observability and monitoring lab built with Prometheus, Grafana, Alertmanager, Node Exporter, cAdvisor and Blackbox Exporter using Docker Compose on Ubuntu Server.
 
 ## Overview
