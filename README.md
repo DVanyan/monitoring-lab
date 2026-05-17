@@ -72,7 +72,7 @@ Architecture Diagram
 
 ## Node Exporter Dashboard
 
-Node Exporter
+![Node Exporter Dashboard](./screenshots/node-exporter-dashboard.jpg)
 
 ---
 
