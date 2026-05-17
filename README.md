@@ -124,26 +124,22 @@ Telegram Notification
 
 ---
 
-# Project Structure
-
-monitoring-lab/ 
-├── docker-compose.yml 
-├── prometheus/    
-│   ├── prometheus.yml    
-│   └── alerts.yml 
-├── grafana/ 
-│   └── data/ 
-├── alertmanager/ 
-│   └── alertmanager.yml 
-└── blackbox/ 
-
----
-
 # How to Run
 
 ## Clone repository
 
 bash git clone https://github.com/DVanyan/monitoring-lab.git cd monitoring-lab 
+
+## Prepare Grafana persistent storage
+
+Grafana stores runtime data in `/var/lib/grafana`.  
+This directory is mounted from `./grafana/data` on the host.
+
+Create the directory and set correct permissions:
+
+mkdir -p grafana/data
+sudo chown -R 472:472 grafana/data
+sudo chmod -R 775 grafana/data
 
 ## Start monitoring stack
 
