@@ -122,6 +122,8 @@ Alertmanager
      ↓ 
 Telegram Notification 
 
+![Telegram Notification](./screenshots/Telegram.jpg)
+
 ---
 
 # How to Run
