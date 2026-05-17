@@ -1,5 +1,4 @@
 # Monitoring Lab
-https://images.credly.com/size/220x220/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png
 
 Full observability and monitoring lab built with Prometheus, Grafana, Alertmanager, Node Exporter, cAdvisor and Blackbox Exporter using Docker Compose on Ubuntu Server.
 
@@ -217,3 +216,5 @@ This triggers:
 David Vanyan
 
 LFCS Certified Linux Administrator
+
+[![Certified system admin](https://images.credly.com/size/220x220/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png)](https://www.credly.com/badges/eb28bbcb-1a81-4e01-98bf-b6d1e6c674be/public_url)
