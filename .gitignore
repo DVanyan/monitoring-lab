@@ -1,0 +1,9 @@
+# Grafana runtime data
+grafana/data/
+
+# Docker runtime
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

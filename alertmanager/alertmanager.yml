@@ -1,0 +1,25 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: telegram
+
+receivers:
+
+  - name: telegram
+
+    telegram_configs:
+
+      - bot_token: '8849680810:AAEhlw_NGa1IS6qR7td0OnYpw-wxlDqpSJE'
+
+        chat_id: 1276680374
+
+        message: |
+          🚨 Alert: {{ .CommonLabels.alertname }}
+
+          Instance: {{ .CommonLabels.instance }}
+
+          Severity: {{ .CommonLabels.severity }}
+
+          Description:
+          {{ .CommonAnnotations.description }}
