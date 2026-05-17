@@ -104,7 +104,11 @@ The lab includes:
 
 ## High CPU Usage Alert
 
-yaml - alert: HighCPUUsage   expr: 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[2m])) * 100) > 80   for: 1m 
+```yaml
+- alert: HighCPUUsage
+  expr: 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[2m])) * 100) > 80
+  for: 1m
+```
 
 ---
 
@@ -130,7 +134,10 @@ Telegram Notification
 
 ## Clone repository
 
-bash git clone https://github.com/DVanyan/monitoring-lab.git cd monitoring-lab 
+```bash
+git clone https://github.com/DVanyan/monitoring-lab.git
+cd monitoring-lab
+``` 
 
 ## Prepare Grafana persistent storage
 
@@ -139,15 +146,17 @@ This directory is mounted from `./grafana/data` on the host.
 
 Create the directory and set correct permissions:
 
+```bash
 mkdir -p grafana/data
-
 sudo chown -R 472:472 grafana/data
-
 sudo chmod -R 775 grafana/data
+```
 
 ## Start monitoring stack
 
-bash docker compose up -d 
+```bash
+docker compose up -d
+```
 
 ## Open services
 
