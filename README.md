@@ -138,7 +138,9 @@ This directory is mounted from `./grafana/data` on the host.
 Create the directory and set correct permissions:
 
 mkdir -p grafana/data
+
 sudo chown -R 472:472 grafana/data
+
 sudo chmod -R 775 grafana/data
 
 ## Start monitoring stack
