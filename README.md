@@ -1,5 +1,5 @@
 # Monitoring Lab
-
+![Architecture Dashboard](./screenshots/Architecture.jpg)
 Full observability and monitoring lab built with Prometheus, Grafana, Alertmanager, Node Exporter, cAdvisor and Blackbox Exporter using Docker Compose on Ubuntu Server.
 
 ## Overview
@@ -78,25 +78,25 @@ Architecture Diagram
 
 ## cAdvisor Dashboard
 
-cAdvisor
+![cAdvisor](./screenshots/Cadvisor.jpg)
 
 ---
 
 ## Blackbox Exporter Dashboard
 
-Blackbox
+![Blackbox Dashboard](./screenshots/Blackbox.jpg)
 
 ---
 
 ## Prometheus Dashboard
 
-Prometheus
+![Prometheus Dashboard](./screenshots/Prometheus.jpg)
 
 ---
 
 ## Alertmanager Dashboard
 
-Alertmanager
+![Prometheus_Alert Dashboard](./screenshots/Prometheus_Alert.jpg)
 
 ---
 
