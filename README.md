@@ -76,6 +76,19 @@ The lab includes:
 
 ---
 
+## Tree structure
+
+```text
+monitoring-lab/
+├── alertmanager/
+├── blackbox/
+├── grafana/
+├── prometheus/
+├── screenshots/
+├── docker-compose.yml
+└── README.md
+```
+
 # Dashboards
 
 ## Node Exporter Dashboard
