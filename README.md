@@ -174,6 +174,8 @@ Imported dashboards:
 
 CPU stress testing was used to simulate production incidents:
 
+sudo apt install -y stress
+
 bash stress --cpu 4 
 
 This triggers:
