@@ -173,6 +173,28 @@ sudo chown -R 472:472 grafana/data
 sudo chmod -R 775 grafana/data
 ```
 
+## Configure Alertmanager Telegram Notifications
+
+Before starting the monitoring stack, you **must** update the Telegram configuration inside:
+
+```text
+monitoring-lab/alertmanager/alertmanager.yml
+```
+
+Replace the placeholder values:
+
+```yaml
+- bot_token: 'YOUR_TELEGRAM_BOT_TOKEN'
+
+  chat_id: YOUR_TELEGRAM_CHAT_ID
+```
+
+with your actual Telegram bot token and chat ID.
+
+If these values are not configured correctly, the Alertmanager container may fail to start.
+
+---
+
 ## Start monitoring stack
 
 ```bash
