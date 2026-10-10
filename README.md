@@ -278,4 +278,4 @@ LFCS and PCA Certified Linux Administrator
 - LinkedIn: www.linkedin.com/in/davidvanyan
 
 [![LFCS](https://images.credly.com/size/220x220/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png)](https://www.credly.com/badges/eb28bbcb-1a81-4e01-98bf-b6d1e6c674be/public_url)
-[![PCA](https://www.credly.com/badges/9e2f67ef-0711-4e2d-b9c1-6bcd4d85fdfa/public_url)
+[![PCA](https://images.credly.com/size/340x340/images/c34436dc-1cfd-4125-a862-35f9c86ca17f/image.png)(https://www.credly.com/badges/9e2f67ef-0711-4e2d-b9c1-6bcd4d85fdfa/public_url)
